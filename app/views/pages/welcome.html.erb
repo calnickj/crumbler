@@ -1,7 +1,6 @@
-<h1>Welcome</h1>
-<p>This is the rasta pickney page!!!!!!
+<% @posts.each do |post| %>
 
+<%= render 'posts/post', post: post%>
 
-
-
-</p>
+	<br><br><br><br>
+ 	<% end %>
